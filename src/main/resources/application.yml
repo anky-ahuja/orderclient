@@ -1,0 +1,9 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /api
+
+baseurl:
+  order: http://localhost:8081/api/server/getBookById
+
+spring.main.allow-bean-definition-overriding: true
